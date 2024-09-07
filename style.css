@@ -1,0 +1,40 @@
+.header {
+    font-family: "Times New Roman", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.links {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+lasagna {
+    background-color: orange;
+}
+
+burrito {
+    background-color: burlywood;
+}
+
+pizza {
+    background-color: red;
+}
+
+#ingredients,
+#steps {
+    font-size: 16px;
+    color: purple;
+}
+
+#ingredients {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#steps {
+    font-family: "Comic Sans" sans-serif;
+}
+
+img {
+    opacity: 0.5;
+}
