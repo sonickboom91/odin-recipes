@@ -2,15 +2,27 @@
     box-sizing: border-box;
 }
 
-.page-header {
+h1 {
     font-family: "Times New Roman", sans-serif;
     font-size: 64px;
     font-weight: bold;
     text-align: center;
 }
 
+h2 {
+    font-family: "Times New Roman", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h3 {
+   font-family:'Times New Roman', Times, serif;
+   font-size: 24px; 
+}
+
 body {
-    background-color: rgb(118, 118, 139);
+    background-image: linear-gradient(rgb(118, 118, 139), rgb(96, 96, 105)) ;
+    margin-bottom: 100px;
 }
 
 .hero {
@@ -32,8 +44,29 @@ body {
 }
 
 .links {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
     text-align: center;
     list-style-type: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.home-list {
+    padding: 0px;
+}
+
+.lasagna {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.recipe-lists {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.troublemaker {
+    height: 100%;
 }
